@@ -1,0 +1,11 @@
+kecepatan = 20km/jam
+penumpang = 0 s/d 4
+
+IF penumpang > 3 
+	DO kecepatan berkurang 7 km/jam 
+ELSE IF penumpang > 2 
+	DO kecepatan berkurang 5 km/jam
+ELSE 
+	DO kecepatan berkurang 2 km/jam
+
+DISPLAY kecepatan
