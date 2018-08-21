@@ -1,5 +1,5 @@
 kecepatan = 20km/jam
-penumpang = 0 s/d 4
+penumpang = 0 between 4
 
 IF penumpang > 3 
 	DO kecepatan berkurang 7 km/jam 

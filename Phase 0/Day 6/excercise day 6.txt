@@ -1,0 +1,27 @@
+var name = "";
+var age = 20;
+var money = 1000000;
+
+var juice = 50000, anggur = 300000;
+var pesan2= juice + anggur;
+var hasil;
+
+if (name == ""){
+  console.log("Anda tidak boleh masuk!");
+}else if(age < 17 && money < juice ) {
+  console.log("Uang tidak cukup. Anda harus pulang!");
+}else if (age < 17 && money > juice ){
+  hasil = money - juice;
+  console.log("Pesan 1 juice, sisa uang anda : "+ hasil);
+}else if (age > 17 && money < juice ){
+   console.log("Uang tidak cukup. Anda harus pulang!");
+}else if (age > 17 && money > juice && money < anggur ){
+  hasil = money - juice;
+  console.log("Pesan 1 juice, sisa uang anda : "+ hasil);
+}else if (age > 17 && money == anggur ){
+  hasil = money - anggur;
+  console.log("Pesan 1 anggur, sisa uang anda : "+ hasil);
+} else if (age > 17 && money > pesan2 ){
+  hasil = money - pesan2;
+  console.log("Pesan 1 anggur dan 1 juice, sisa uang anda : "+ hasil);
+}

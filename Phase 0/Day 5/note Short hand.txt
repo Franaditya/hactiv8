@@ -1,0 +1,17 @@
+i = 5 + i    sama aja     i + = 5
+
+short hand if else  (biar enak dilihat simple u/ 5 percabanagan maks.)
+
+// 1 else 
+var a= 10;
+var b = a === 10 ? 110 :  "nilai kosong";
+=============================================================
+artinya jika a = 10 maka B = 110 else nilai kosong
+==============================================================
+
+// 2 else
+var b = a === 10 ? 110 :
+        a === 11 ? 222 :  "nilai kosong";
+
+//// simple multiple variable
+var a = 2, b = 3 , c = 4;
