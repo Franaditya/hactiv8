@@ -1,0 +1,23 @@
+const hackFox = (angka) => {
+  var mod2 = angka % 2;
+  var mod3 = angka % 3;
+  if (mod2 == 0 && mod3 == 0){
+  console.log('HACKFOX');
+  }else if(mod2 == 0){
+    console.log('HACK');
+  }else if(mod3 == 0){
+   console.log('FOX');
+  }else {
+  console.log('FALSE');
+    
+  }
+};
+
+hackFox(5);
+hackFox(2);
+hackFox(8);
+hackFox(9);
+hackFox(12);
+hackFox(18);
+hackFox(131);
+

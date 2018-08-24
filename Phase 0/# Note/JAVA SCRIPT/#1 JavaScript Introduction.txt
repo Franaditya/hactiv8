@@ -1,0 +1,20 @@
+console.log('Hello'.toUpperCase()); // 'HELLO'
+
+console.log('Hey'.startsWith('H')); // true
+
+//menghapus spasi
+console.log('    Remove whitespace   '.trim());  //Remove whitespace
+
+//pembulatan keatas
+console.log(Math.ceil(43.2))  // 44
+
+// pembulatan kebawah
+console.log(Math.floor(10.99 ));  //10
+
+// String Interpolation 
+let myPet = 'armadillo'
+===cara 1===console.log(`I own a pet ${myPet}.`) 
+===cara 2=== console.log('I own a pet '+ myPet + ' .') 
+// Output: 'I own a pet armadillo.'
+
+

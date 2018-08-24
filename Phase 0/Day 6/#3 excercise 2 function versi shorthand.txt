@@ -1,0 +1,14 @@
+function hackFox(angka) {
+    return (angka % 2 === 0 && angka % 3 === 0) ? 'HACKFOX' :
+        (angka % 3 === 0) ? 'FOX' :
+        (angka % 2 === 0) ? 'HACK':
+        false;
+}
+console.log(hackFox(5)); 
+console.log(hackFox(2)); 
+console.log(hackFox(8)); 
+console.log(hackFox(9)); 
+console.log(hackFox(9)); 
+console.log(hackFox(12)); 
+console.log(hackFox(18)); 
+console.log(hackFox(131)); 

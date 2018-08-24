@@ -1,0 +1,17 @@
+//Menghapus array line terakhir
+secretMessage.pop();
+
+//Menambahkan string ke array terakhir
+secretMessage.push('Program');
+
+//untuk hapus array index 6-10 dan replace dgn string 'Know'
+secretMessage.splice(6,10,'Know');
+
+// menghapus array line 1
+secretMessage.shift();
+
+//Menambahkan string ke line 1 array
+secretMessage.unshift('Programming');
+
+//Untuk Membuat Array menjadi 1 baris dan mengubah spasi menjadi string 'Soal' (tanpa spasi)
+console.log(array.join('Soal'));

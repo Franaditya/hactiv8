@@ -1,0 +1,18 @@
+// .forEach()
+untuk mengeksekusi kode yang sama pada setiap elemen dalam sebuah array tetapi tidak mengubah array dan mengembalikan undefined
+
+
+// .map()
+mengeksekusi kode yang sama pada setiap elemen dalam array dan mengembalikan array baru dengan elemen yang diperbarui.
+
+
+//.filter()
+memeriksa setiap elemen dalam larik untuk melihat apakah ia memenuhi kriteria tertentu dan mengembalikan larik baru dengan elemen yang mengembalikan kebenaran untuk kriteria.
+
+//.some ()
+
+//.every () 
+
+//.reduce () 
+
+
