@@ -1,0 +1,7 @@
+for(angka=1; angka <= 10; angka++){
+	if (angka == 2 || angka == 8){
+		continue;
+	}else {
+		console.log(angka);
+	}
+}

@@ -1,0 +1,52 @@
+function = sub program / sub routine yang dapat dipanggil dibagian lain pada program / blok kode yang dibuat u/ tugas spesifik
+
+/// alasan pake function 
+1. Reusability (DRY: do not repeat your self)
+2. dekomposisi /abstraksi (u/ mnyembunyikan komplesifitas dr program yg kita buat dgn membuat program menjadi permodul)
+3. modularitas (agar mudah menelusiri jika ada kesalahan saat proses debugging)
+
+Cara membuat function
+1. Function Declaration
+2. Function expression
+
+
+/// function Declaration
+function jumlah(a,b){
+	var total;
+	total = a+b;
+	return total;
+}
+console.log(jumlah(4,2));
+
+/// Function Expression
+var jumlah = function (a,b) {
+	var total;
+	total = a+b;
+	return total;
+}
+console.log(jumlah(4,2));
+
+
+contoh volume 2 kubus
+function jumlahVolumeKubus (a,b){
+	var total;
+	var v1 = a * a * a;
+	var v2 = b * b * b ;
+	total = v1 + v2;
+	return total;
+}
+console.log(jumlahVolumeKubus(4,2));
+console.log(jumlahVolumeKubus(3,2));
+
+
+//  function Array
+function tambah () {
+	var hasil = 0;
+	for( var i =0 ; i < arguments.length; i++){
+	hasil += arguments[i];
+	}
+	return hasil;
+}
+
+var coba = tambah (2,3,4,6);
+console.log(coba);

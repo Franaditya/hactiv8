@@ -1,0 +1,5 @@
+var angka= 5 , hasil =1;
+for(var deret =1 ; deret <= 5; deret++){
+ hasil *= angka;
+console.log(hasil);
+}

@@ -18,3 +18,108 @@ let myPet = 'armadillo'
 // Output: 'I own a pet armadillo.'
 
 
+
+// while
+var nilaiAwal = 1;
+while (nilaiAwal <= 10) {
+	console.log('Angkot No. ' + nilaiAwal + 'beroperasi dengan baik.');
+
+nilaiAwal++;
+}
+
+// for
+for (var nilaiAwal =1; nilaiAwal <= 10; nilaiAwal++){
+	console.log('Angkot No. ' + nilaiAwal + 'beroperasi dengan baik.');
+}
+
+// bintang sgitiga 1                   *
+var s='';							                **
+for (var i= 0; i < 5 ; i++){		     ***		var i = loop baris
+   for (var j=0;j<=i;j++){			    ****		var j = loop bintang
+    s+='*';							           *****
+}
+      s+='\n';
+}
+console.log(s);
+
+// bintang sgitiga 2				     *****
+var s='';							            ****
+for (var i= 0; i < 5 ; i++){		   ***
+   for (var j=i;j<5;j++){			      **
+    s+='*';							             *
+}
+      s+='\n';
+}
+console.log(s);
+
+//// cara 2 sgitiga 2
+var s='';
+for (var i= 5; i >0 ; i--){
+   for (var j=0;j<i;j++){
+    s+='*';
+}
+      s+='\n';
+}
+console.log(s);
+
+// bintang sgitiga 3					    ______
+										              _____*
+var x='';								          ____**
+ for (var i=1;i<=5;i++){				  ___***
+        for (var j=i;j<=5;j++){		__****
+           x+='_';						    _*****
+        }
+        for (var k=1;k<=i;k++){
+             x+='*';
+        }
+        x+='\n';
+    }
+console.log(x);
+
+// bintang 4
+var x='';								            _*****
+ for (var i=0;i<=5;i++){				    __****
+        for (var j=0;j<=i;j++){			___***
+           x+='_';						      ____**
+        }								            _____*
+        for (var k=i;k<=5;k++){
+             x+='*';
+        }
+        x+='\n';
+    }
+console.log(x);
+
+
+//piramida 1
+var x='';								           _____*
+    for (var i=1;i<=5;i++){				 ____***
+        for (var j=i;j<=5;j++){		 ___*****
+             x+='_';					     __*******
+             							         _*********
+        }								
+        for (var k=1;k<=i;k++){
+           x+='*';
+        }
+        for (var l=1;l<=i-1;l++){
+           x+='*';
+        }
+        x+='\n';
+    }
+      console.log(x);
+
+ //piramida 2
+ var x='';								        _*********
+    for (var i=1;i<=5;i++){				__*******
+        for (var j=1;j<=i;j++){		___*****
+             x+='_';					    ____***
+             							        _____*
+        }
+        for (var k=i;k<=5;k++){
+           x+='*';
+        }
+        for (var l=i;l<=5-1;l++){
+           x+='*';
+        }
+        x+='\n';
+    }
+      console.log(x); 

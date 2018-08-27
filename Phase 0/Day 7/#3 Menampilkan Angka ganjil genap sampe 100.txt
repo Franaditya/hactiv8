@@ -1,0 +1,14 @@
+//ganjil
+var hasil= 1;
+for(var angka = 1; hasil < 100; angka++){
+console.log(hasil);
+hasil +=2;
+}
+
+///genap
+var hasil= 1;
+for(var angka = 1; hasil < 100; angka++){
+
+hasil +=1;
+console.log(hasil);
+}

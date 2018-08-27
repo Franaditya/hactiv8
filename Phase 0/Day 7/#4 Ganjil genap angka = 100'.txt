@@ -1,0 +1,7 @@
+for(var angka=1 ; angka <= 100; angka++){
+if (angka % 2){
+console.log(angka + ' ganjil');
+}else{ 
+console.log(angka + ' ganap');
+}
+}
