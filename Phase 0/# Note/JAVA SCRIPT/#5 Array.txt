@@ -15,3 +15,17 @@ secretMessage.unshift('Programming');
 
 //Untuk Membuat Array menjadi 1 baris dan mengubah spasi menjadi string 'Soal' (tanpa spasi)
 console.log(array.join('Soal'));
+
+// slice u/ mengiris bagian array menjadi array yang baru
+.slice(awal,akhir);
+example: mengambil element index 1 dan 2
+var arr = ['adit','didi','fran','angga','raihan'];
+arr.slice(1,3);
+
+// splice u/ menggabungkan / menambahkan elemen baru ke dalam array
+splice(indexAwal, mauDiHapusBeraapa, elementBaru1, elemenbaru2...);
+
+example:
+var arr = ['adit','didi','doni'];
+arr.splice(1,2, 'rudi', 'angga');
+console.log(arr);

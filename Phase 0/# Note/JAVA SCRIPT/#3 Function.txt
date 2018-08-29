@@ -29,11 +29,7 @@ console.log(jumlah(4,2));
 
 contoh volume 2 kubus
 function jumlahVolumeKubus (a,b){
-	var total;
-	var v1 = a * a * a;
-	var v2 = b * b * b ;
-	total = v1 + v2;
-	return total;
+	return (a * a * a) + (b * b * b) ;
 }
 console.log(jumlahVolumeKubus(4,2));
 console.log(jumlahVolumeKubus(3,2));
