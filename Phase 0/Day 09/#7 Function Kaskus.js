@@ -2,13 +2,13 @@ var arr =[];
 function kaskus (angka){
 	for(var i = 0; i < angka.length; i++) {
 		if(angka[i] % 15 == 0) {
-			arr.push('KASKUS')
+			arr.push('KASKUS');
 		}else if (angka[i] % 6 == 0) {
-			arr.push('KUS')
+			arr.push('KUS');
 		}else if (angka[i] % 3 == 0) {
-			arr.push('KAS')
+			arr.push('KAS');
 		}else{
-			arr.push(angka[i])
+			arr.push(angka[i]);
 		}
 	}
 	return angka;
