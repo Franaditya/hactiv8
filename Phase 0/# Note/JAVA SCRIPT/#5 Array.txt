@@ -29,3 +29,24 @@ example:
 var arr = ['adit','didi','doni'];
 arr.splice(1,2, 'rudi', 'angga');
 console.log(arr);
+
+// call back function
+var arr = [1, 2, 15, 123, 55, 155];
+arr.sort(function(a,b){
+return a-b;
+})
+console.log(arr); 
+
+// call back arrow function
+var arr = [1, 2, 15, 123, 55, 155];
+arr.sort((a,b) => a < b );
+console.log(arr); 
+
+
+split()
+
+Split adalah fungsi yang memecah string dan mengembalikan nilai berupa array sesuai dengan separator atau pemisah tertentu yang didefinisikan. Fungsi split menerima satu parameter, yaitu karakter apa yang akan menjadi pemisah/separator.
+
+var kalimat = "saya adalah full-stack javascript programmer!";
+var kata = kalimat.split(" "); // kalimat dipecah dengan separator berupa spasi.
+console.log(kata); // ["saya", "adalah", "full-stack", "javascript", "programmer!"]
