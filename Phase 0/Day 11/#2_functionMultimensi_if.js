@@ -28,4 +28,5 @@ console.log(multiDimensi(2,3));
 //[1,2,3,4], [5,6,7,8], [9,10,11,12]
 console.log(multiDimensi(3,4));
 console.log(multiDimensi(6,2));
+console.log(multiDimensi(8,0));
 

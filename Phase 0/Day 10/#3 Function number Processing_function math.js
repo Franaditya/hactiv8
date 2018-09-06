@@ -27,5 +27,6 @@ for(var index = 0; index < numberArr.length; index++) {
 }
 
 numberProcessing([1, 3, 5, 1, 2, 8, 10, 0, 3]);
+
 console.log('Min : '+ minNum + ', Max = ' + maxNum + ', Mean : ' + (Math.ceil(meanNum)) + ', Odds : ' + ganjil + ', Evens : ' + genap );
 // "Min: 0, Max: 10, Mean: 4, Odds: 1-3-5-1-3, Evens: 2-8-10-0"
