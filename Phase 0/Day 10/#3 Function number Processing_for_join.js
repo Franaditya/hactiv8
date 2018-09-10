@@ -19,7 +19,7 @@ function numberProcessing(numberArr) {
 	//console.log(arr);
 
 	return 'Min : '+ arr[0] + ', Max : '+ arr[arr.length-1] + ', Mean : ' 
-			+ Math.ceil(total/numberArr.length) + ', Odds : ' 
+			+ Math.round(total/numberArr.length) + ', Odds : ' 
 			+  odds + ', Evens : '+ evens;
 
 }

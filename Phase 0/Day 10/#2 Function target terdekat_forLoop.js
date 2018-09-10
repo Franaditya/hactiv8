@@ -31,7 +31,7 @@ var jarakTerdekat = array.length;
 	//console.log('indeks o = ' +indeksO);
 	return jarakTerdekat;
 }
-console.log(targetTerdekat(['', '', 'o', '', 'x', 'x', 'x'])); //3
+console.log(targetTerdekat(['', '', 'o', '', 'x', 'x', 'x'])); //2
 // TEST CASES
 console.log(targetTerdekat(['', '', 'o', '', '', 'x', '', 'x'])); // 3
 console.log(targetTerdekat(['o', '', '', '', 'x', 'x', 'x'])); // 4
