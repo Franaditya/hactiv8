@@ -1,11 +1,11 @@
 function square (number) {
-  // Your code here
+  return number * number
 }
 
 function pi () {
-
+ return Math.PI
 }
 
 
 var area = pi() * square(7);
-console.log(area); // 154
+console.log(Math.round(area)); // 154

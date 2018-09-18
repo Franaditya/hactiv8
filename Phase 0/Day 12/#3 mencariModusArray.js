@@ -4,7 +4,7 @@
  let jumlah = 0;
 
 function cariModus(arr) {
-  arr.sort(function(a, b) { return a > b });
+ arr.sort(function(a, b) { return a > b });
   //console.log(arr);  
   
   for (let i = 0; i < arr.length; i++) {
