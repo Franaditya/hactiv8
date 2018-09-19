@@ -3,11 +3,13 @@ function countLetters (word, letter) {
 		return 0;
 	}
 	var front = word[0];
+	//console.log(front)
 	var count = 0;
 	if(front === letter){
 		count = 1;
 	}
 	var back = word.slice(1);
+	//console.log(back)
 	return count + countLetters(back, letter);
 }
 

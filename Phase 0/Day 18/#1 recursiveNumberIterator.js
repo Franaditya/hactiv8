@@ -4,7 +4,6 @@ function numberIterator(num) {
 	}
 	else { 
 		var hasil = String(num);
-		//console.log(hasil);
 		return numberIterator(num-1) + hasil;
 	}  
 }
