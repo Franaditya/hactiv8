@@ -21,6 +21,7 @@ function cariModus(arr) {
     }
   }
 
+
 	if (terbanyak === 0 ) {
 		return 'array kosong';
 	} else if (terbanyak === arr.length - 1){
@@ -33,4 +34,5 @@ function cariModus(arr) {
 // pake array yang sudah diurutkan dengan sort
 console.log(cariModus([ ])); 
 console.log(cariModus([2,2,2])); 
+console.log(cariModus([2,2,3,5,2])); 
 console.log(cariModus([ 10, 8, 1, 9, 1, 7, 29, 1, 0, 4, 1, 7 ])); 

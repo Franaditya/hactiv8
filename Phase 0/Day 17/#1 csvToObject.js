@@ -1,10 +1,10 @@
 function csvToObject (text) {
 let arr = text.split(',');
 var obj = {};
-	obj.nama = arr[0];
-	obj.email = arr[1];
-	obj.gender = arr[2];
- 
+var key = ['name', 'email', 'gender'];
+for(var i=0; i < arr.length; i++){
+	obj[key[i]] = arr[i];
+}
 return obj ;
 }
 
