@@ -1,8 +1,8 @@
 function deleteUndefinedKeys (object) {
 
-	Object.keys(object).forEach(key => {
-		if (object[key] === undefined) {
-			delete object[key];
+	Object.keys(object).forEach(item => {
+		if (object[item] === undefined) {
+			delete object[item];
 		}
 		//console.log(object[key]);
 	});
